@@ -1,0 +1,6 @@
+.discordLogo {
+    width: 130px;
+    object-fit: contain; /* Ajusta la imagen sin distorsionarla */
+    margin-left: 10px;
+    
+  }

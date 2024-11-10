@@ -1,0 +1,40 @@
+html, body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  background: rgb(57, 75, 245);
+  width: auto;
+}
+body {
+  padding: 20px;  
+  background: rgb(57, 75, 245);
+}
+
+.icons {
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  position: absolute;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+.container {
+  position: absolute;
+  margin:50px;
+  max-width: 40%; /* Limita el ancho del contenido */
+  left: 0;
+  top: 7%;
+  text-align: left;
+}
+
+.buttonContainer {
+  display: flex;
+
+  flex-direction: column;
+
+}

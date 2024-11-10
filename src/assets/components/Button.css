@@ -1,0 +1,22 @@
+.Button {
+    padding:20px 30px;; /* Añade espacio interno para hacer el botón más grande */
+    font-size: 1rem; /* Define el tamaño de la fuente */
+    border: none; /* Quita el borde si es necesario */
+    border-radius: 50px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: inline-block; /* Asegura que el botón se comporte como un bloque en línea que se ajusta al contenido */
+    width: min-content; /* Permite que el ancho se ajuste al contenido */ 
+    white-space: nowrap; /* Evita que el contenido del botón se divida en varias líneas */
+    margin-top: 30px;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.Button.download {
+    background: white;
+    color: black;
+}
+
+.Button.open {
+    background: black;
+    color: white;
+}
